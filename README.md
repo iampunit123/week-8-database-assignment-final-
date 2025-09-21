@@ -22,4 +22,28 @@ It handles:
 ## ⚙️ How to Run
 1. Clone this repository:
    ```bash
- 
+   git clone https://github.com/iampunit123/week-8-database-assignment-final-.git
+   cd property-rental-db
+   Import the SQL file into MySQL:
+   mysql -u your_username -p < property_rental_db.sql
+✅ Constraints & Relationships
+
+One-to-Many: owners → properties
+
+One-to-Many: properties → leases → payments
+
+Many-to-Many: agents ↔ properties
+
+Constraints:
+
+Lease end date must be greater than start date
+
+Unique emails for owners/tenants/agents
+
+📅 Submission Info
+
+Assignment: Database Management System
+
+Student Name: punit mugoh
+
+
